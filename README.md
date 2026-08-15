@@ -40,4 +40,21 @@ The version 1 on the 595 expansion PCB worked almost perfectly however I suspect
 
 # Building
 
-Use jlbsp, Good luck!
+[Required dependencies](https://buildroot.org/downloads/manual/manual.html#requirement-mandatory)
+
+My custom packages all use `git` so it is also a required package.
+
+`fd-find` is required for my custom BSP repository, if you have not used this unix `find` replacement, try it!
+
+## Instructions
+
+ 1. Clone [jlbsp](https://github.com/abc123me/jlbsp)
+ 2. Enter the repository (`cd jlbsp`)
+ 3. Checkout the develop branch for latest (`git checkout develop`)
+ 4. Setup the screen hat BSP (`./bsp setup screen-hat`)
+ 5. Enter the screen hat BSP (`cd ../builds/screen-hat`)
+ 6. Turn off the `JL_SECRET_KEYS` repository via `make menuconfig`
+ 7. Build the BSP using `make all`
+ 8. Flash the SD card using `dd if=images/sdcard.img of=<my-sd-card> bs=4M oflag=sync status=progress`
+
+
