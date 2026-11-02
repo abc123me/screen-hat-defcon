@@ -91,5 +91,5 @@ setup SSH keys yourself by adding your SSH keys to the rootfs or enabling root l
 Serial via the USB UART may also be used, 115200 baud, the username is root, no password.
 
 ## Pictures
-![screenhat1](https://raw.githubusercontent.com/abc123me/screen-hat-defcon/refs/heads/master/screenhat1.png)
-![screenhat2](https://raw.githubusercontent.com/abc123me/screen-hat-defcon/refs/heads/master/screenhat2.png)
+![screenhat1](https://raw.githubusercontent.com/abc123me/screen-hat-defcon/refs/heads/master/screenhat1.jpg)
+![screenhat2](https://raw.githubusercontent.com/abc123me/screen-hat-defcon/refs/heads/master/screenhat2.jpg)
