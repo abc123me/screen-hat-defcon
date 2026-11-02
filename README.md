@@ -89,3 +89,7 @@ The `bsps/screen-hat.bsp` file contains the IP address that would be used here. 
 setup SSH keys yourself by adding your SSH keys to the rootfs or enabling root login via SSH.
 
 Serial via the USB UART may also be used, 115200 baud, the username is root, no password.
+
+## Pictures
+![screenhat1](https://raw.githubusercontent.com/abc123me/screen-hat-defcon/refs/heads/master/screenhat1.png)
+![screenhat2](https://raw.githubusercontent.com/abc123me/screen-hat-defcon/refs/heads/master/screenhat2.png)
